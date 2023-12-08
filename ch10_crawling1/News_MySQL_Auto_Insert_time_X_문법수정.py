@@ -31,7 +31,7 @@ def insertData(subject, press, pDate, pTime, link, imgLinkUrl):
     data0, data1, data2, data3, data4, data5, data6 = "", "", "", "", "", "", ""
     sql = ""
     con = pymysql.connect(host='127.0.0.1', user='root',
-                          password='1234', database='nateNewsLive', charset='utf8')
+                          password='gustjr27', database='nateNewsLive', charset='utf8')
     cur = con.cursor()
 #    title` VARCHAR(200) NULL,
 #   `publisher` VARCHAR(45) NULL,

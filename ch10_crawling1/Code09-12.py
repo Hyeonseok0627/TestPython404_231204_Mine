@@ -3,7 +3,12 @@ import time
 import datetime
 # 시스템의 날짜 및 시간을  -> csv 파일 저장.
 
+#학원 pc
 csvName = 'C:/TestPython/ch10_crawling1/datetime_231208.csv'
+
+#집 pc(mac)
+csvName = '/Users/hyeonseoklee/Desktop/IT Dev/Python_class/TestPython404_231204_Mine/ch10_crawling1/datetime_231208.csv'
+
 # 파이썬 키워드 with로 시작한다, : 기능 -> 파일 입출력 하기위한 객체가 필요함.
 # 해당 객체를 이용한 후, 자원 반납(객체 소멸)
 # with로 시작하면, 해당 객체를 자동으로 사용 후, 반납해줌.

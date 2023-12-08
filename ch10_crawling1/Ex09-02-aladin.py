@@ -55,7 +55,11 @@ txt_list = []
 result_list = []
 
 # 메인 코드부
+#학원 pc
 csvName = 'C:/TestPython/ch9_crawling1/aladinBook_231208.csv'
+#집 pc(mac)
+csvName = '/Users/hyeonseoklee/Desktop/IT Dev/Python_class/TestPython404_231204_Mine/ch10_crawling1/aladinBook_231208.csv'
+
 with open(csvName, 'w', newline='',encoding="UTF-8") as csvFp:
     csvWriter = csv.writer(csvFp)
     csvWriter.writerow(['책이름', '저자', '가격', '책커버이미지'])
