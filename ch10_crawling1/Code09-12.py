@@ -7,7 +7,7 @@ import datetime
 csvName = 'C:/TestPython/ch10_crawling1/datetime_231208.csv'
 
 #집 pc(mac)
-csvName = '/Users/hyeonseoklee/Desktop/IT Dev/Python_class/TestPython404_231204_Mine/ch10_crawling1/datetime_231208.csv'
+# csvName = '/Users/hyeonseoklee/Desktop/IT Dev/Python_class/TestPython404_231204_Mine/ch10_crawling1/datetime_231208.csv'
 
 # 파이썬 키워드 with로 시작한다, : 기능 -> 파일 입출력 하기위한 객체가 필요함.
 # 해당 객체를 이용한 후, 자원 반납(객체 소멸)

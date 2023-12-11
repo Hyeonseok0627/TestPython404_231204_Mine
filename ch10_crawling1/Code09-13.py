@@ -8,7 +8,7 @@ import urllib.request
 #학원 pc
 csvName = 'C:/TestPython/ch10_crawling1/sokcho_weather_231208.csv'
 #집 pc(mac)
-csvName = '/Users/hyeonseoklee/Desktop/IT Dev/Python_class/TestPython404_231204_Mine/ch10_crawling1/sokcho_weather_231208.csv'
+# csvName = '/Users/hyeonseoklee/Desktop/IT Dev/Python_class/TestPython404_231204_Mine/ch10_crawling1/sokcho_weather_231208.csv'
 
 with open(csvName, 'w', newline='',encoding="UTF-8") as csvFp:
     csvWriter = csv.writer(csvFp)
