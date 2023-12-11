@@ -60,11 +60,11 @@ def insertData(subject, press, pDate, pTime, link, imgLinkUrl):
     data0, data1, data2, data3, data4, data5, data6 = "", "", "", "", "", "", ""
     sql = ""
     # 학원 PC
-    con = pymysql.connect(host='127.0.0.1', user='root',
-                          password='123456', database='nateNewsDB', charset='utf8')
-    # 집 PC(맥)
     # con = pymysql.connect(host='127.0.0.1', user='root',
-    #                       password='gustjr27', database='nateNewsDB', charset='utf8')
+    #                       password='123456', database='nateNewsDB', charset='utf8')
+    # 집 PC(맥)
+    con = pymysql.connect(host='127.0.0.1', user='root',
+                          password='gustjr27', database='nateNewsDB', charset='utf8')
 
     cur = con.cursor()
 #    title` VARCHAR(200) NULL,
@@ -73,7 +73,7 @@ def insertData(subject, press, pDate, pTime, link, imgLinkUrl):
 #   `newsTime` VARCHAR(6) NULL,
 #   `newsDetail` VARCHAR(200) NULL,
 #   `newsImgUrl` VARCHAR(200) NULL,
-    # data0 = data10
+#     data0 = data10
     data1 = subject
     data2 = press
     data3 = pDate
