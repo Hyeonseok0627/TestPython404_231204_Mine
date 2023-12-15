@@ -6,7 +6,7 @@ import urllib.request
 
 # 날씨의 정보를 크롤링 가져와서 -> 실제 csv 파일에 쓰는 예제.
 #학원 pc
-csvName = 'C:/TestPython/ch10_crawling1/sokcho_weather_231208.csv'
+csvName = 'C:/TestPython/bigData_Practice/natenews_weather_231215.csv'
 #집 pc(mac)
 # csvName = '/Users/hyeonseoklee/Desktop/IT Dev/Python_class/TestPython404_231204_Mine/ch10_crawling1/sokcho_weather_231208.csv'
 

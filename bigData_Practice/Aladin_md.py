@@ -57,7 +57,7 @@ result_list = []
 
 # 메인 코드부
 # 수집된 데이터를 -> csv 파일로 작성하는 초기 세팅.
-csvName = 'C:/TestPython/ch10_crawling1/aladinBook_231211.csv'
+csvName = 'C:/TestPython/bigData_Practice/aladinBook_231215_lhs.csv'
 # with 구문은, 파일의 입출력에서, 자동으로 close 할 때 많이 사용이 되는 형식이다.
 with open(csvName, 'w', newline='',encoding="UTF-8") as csvFp:
     csvWriter = csv.writer(csvFp)
